@@ -1,8 +1,11 @@
 {
-  "name": "wicket",
+  "name": "@nachos-jp/wicket",
   "version": "0.0.0",
   "description": "Create a overlay Javascript library",
   "main": "dist/wicket.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "scripts": {
     "build:production": "NODE_ENV=production webpack",
     "build:development": "NODE_ENV=development webpack",
